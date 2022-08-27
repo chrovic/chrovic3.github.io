@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>For Kat </title>
+<style>
+body{
+    background-color: pink;
+}
+p{
+    text-align: left;
+}
+</style>
+<meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("I like you")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Hi (Katrina Errazo) <h1>
+<img src="images/kat.gif" height="200" />
+<h1 style="#">Pwede bang ikaw nalang<br> sa araw-araw?</h1>
+<div id="By" style="position:absolute; left:10px; top:370px; width:210px;
+height:210px;">
+<a href="https://www.youtube.com/watch?v=V4qjAyb4lNI"><input type="button" value=" Yes " onClick="f1()" /></a>
+<i><p>- "Mahiwaga
+Pipiliin ka sa araw-araw
+Mahiwaga
+Ang nadarama sayo'y malinaw"</p><i>
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" No " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
